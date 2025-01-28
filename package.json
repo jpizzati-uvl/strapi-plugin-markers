@@ -59,7 +59,7 @@
   },
   "strapi": {
     "kind": "plugin",
-    "name": "strapi-plugin-markers",
+    "name": "markers",
     "displayName": "Markers",
     "description": "Create annotations on images."
   },
