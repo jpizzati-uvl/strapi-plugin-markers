@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [],
   "type": "commonjs",
   "exports": {
@@ -59,11 +59,11 @@
   },
   "strapi": {
     "kind": "plugin",
-    "name": "markers",
+    "name": "strapi-plugin-markers",
     "displayName": "Markers",
     "description": "Create annotations on images."
   },
-  "name": "markers",
+  "name": "strapi-plugin-markers",
   "description": "Create annotations on images.",
   "license": "MIT",
   "author": "jpizzati-uvl <jpizzati@uvltd.com>"
