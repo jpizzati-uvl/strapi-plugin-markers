@@ -1,0 +1,12 @@
+{
+  "extends": "@strapi/typescript-utils/tsconfigs/admin",
+  "include": ["./src", "./custom.d.ts"],
+  "compilerOptions": {
+    "rootDir": "../",
+    "baseUrl": ".",
+    "strict": false, // Disable strict mode
+    "noImplicitAny": false, // Allow `any` type implicitly
+    "esModuleInterop": true, // Ensures compatibility with non-ES module imports
+    "skipLibCheck": true // Skip type checking of declaration files (for performance)
+  }
+}
